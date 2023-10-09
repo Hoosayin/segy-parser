@@ -1,6 +1,6 @@
 # SEGY Parser
 
-**ukooa-parser** is a C++ console application designed to parse UKOOA text files and extract specific information for each record. The extracted data includes the First and Last SP (Starting Point), First and Last X coordinate, and First and Last Y coordinate. This information is then appended to a specified JSON file. The project utilizes the jsoncpp open-source library as a Git submodule for reading and writing JSON output files. Configuration settings for data extraction are defined in the `AppSettings.config` file.
+**segy-parser** is a C++ console application designed to parse SEGY binary files and extract specific information for each record. The extracted data includes the Text Header, Binary Header, and Data Traces and their samples. This information is then written in a Text file in ASCII format.
 
 ## What is SEGY?
 
