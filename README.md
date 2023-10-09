@@ -12,15 +12,6 @@
 - Extracts First and Last SP, X coordinate, and Y coordinate for each record.
 - Appends the extracted information to a specified JSON file.
 
-## Command-line Arguments
-
-The program accepts the following command-line arguments:
-
-- `-s` followed by the names of input UKOOA files separated by spaces.
-- `-o` followed by the name of the output JSON file.
-
-**AppSettings.config** is read once, and a Singleton pattern is used to make the configuration settings available to other classes. **Ukooa** class represents the UKOOA structure. **UkooaParser** is responsible for parsing each source UKOOA file in a separate thread.
-
 ## Building and Running
 
 ### Configure (Modify CMake Generator as Needed)
